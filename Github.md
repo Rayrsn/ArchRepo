@@ -7,6 +7,7 @@ Server = https://rayrsn.github.io/ArchRepo/$arch
 ```
 
 * Alternatively you can copy and paste the following command into your terminal:
+
 ```bash
 echo '
 

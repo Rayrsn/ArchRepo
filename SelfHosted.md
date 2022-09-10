@@ -7,6 +7,7 @@ Server = https://rayr.ml/repo/$arch
 ```
 
 * Alternatively you can copy and paste the following command into your terminal:
+
 ```bash
 echo '
 
