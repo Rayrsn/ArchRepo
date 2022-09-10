@@ -2,49 +2,13 @@
 
 ## Instructions 📝
 Add one of the following repos to your `/etc/pacman.conf`:
-<details>
-<summary>Github</summary>
 
-```ini
-[rayr]
-SigLevel = Never
-Server = https://rayrsn.github.io/ArchRepo/$arch
-```
 
-* Alternatively you can copy and paste the following command into your terminal:
-```bash
-echo '
+[Github](./Github.md)
 
-[rayr]
-SigLevel = Never
-Server = https://rayrsn.github.io/ArchRepo/$arch ' | sudo tee -a /etc/pacman.conf
 
-sudo pacman -Syyu
-```
+[Self Hosted](./SelfHosted.md)
 
-</details>
-
-<details>
-<summary>Self Hosted</summary>
-
-```ini
-[rayr]
-SigLevel = Never
-Server = https://rayr.ml/repo/$arch
-```
-
-* Alternatively you can copy and paste the following command into your terminal:
-```bash
-echo '
-
-[rayr]
-SigLevel = Never
-Server = https://rayr.ml/repo/$arch ' | sudo tee -a /etc/pacman.conf
-
-sudo pacman -Syyu
-```
-
-</details>
 
 <br/>
 
