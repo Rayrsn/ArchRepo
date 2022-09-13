@@ -9,6 +9,9 @@ Add one of the following repos to your `/etc/pacman.conf`:
 
 [Self Hosted](./SelfHosted.md)
 
+or 
+
+[Both](./Both.md) (Recommended, Incase one goes down)
 
 ### Programs In This Repo 📦
 * currencyconverter ([Github](https://github.com/Rayrsn/currencyConverter), [AUR](https://aur.archlinux.org/packages/currencyconverter))
