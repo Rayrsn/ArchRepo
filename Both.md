@@ -3,7 +3,7 @@ Add the following repo to your `/etc/pacman.conf`:
 ```ini
 [rayr]
 SigLevel = Never
-Server = https://rayr.link/repo/$arch 
+Server = https://rayrsn.me/repo/$arch 
 Server = https://rayrsn.github.io/ArchRepo/$arch
 ```
 
@@ -14,7 +14,7 @@ echo '
 
 [rayr]
 SigLevel = Never
-Server = https://rayr.link/repo/$arch 
+Server = https://rayrsn.me/repo/$arch 
 Server = https://rayrsn.github.io/ArchRepo/$arch ' | sudo tee -a /etc/pacman.conf
 
 sudo pacman -Syyu
